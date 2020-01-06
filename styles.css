@@ -181,7 +181,7 @@ a.social:hover {
   max-width: 525px;
   min-width: 440px;
   margin: 10px;
-  border: 3px solid white;
+  border-bottom: 4px solid white;
   transition: all .5s;
 }
 
