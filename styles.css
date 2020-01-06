@@ -100,6 +100,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
 .card:hover {
   border-color: #b51f3a;
 }
@@ -169,6 +170,25 @@ a.social:hover {
   clear: both;
 }
 
+/* Styles for hobbies gallery */
+.gallery {
+  padding-top: 50px;
+}
+
+.shot {
+  height: auto;
+  width: 50%;
+  max-width: 525px;
+  min-width: 440px;
+  margin: 10px;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+.shot:hover {
+  border-color: #b51f3a;
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -206,4 +226,6 @@ a.social:hover {
   }
 
 }
+
+
 
